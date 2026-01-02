@@ -164,14 +164,14 @@ def main():
     parser.add_argument(
         "-m", "--main-spots",
         type=int,
-        default=100,
-        help="Number of main lottery spots (default: 100, per HL100 gender pool)"
+        default=125,
+        help="Number of main lottery spots (default: 125, per HL100 gender pool)"
     )
     parser.add_argument(
         "-w", "--waitlist-spots",
         type=int,
-        default=100,
-        help="Number of waitlist spots (default: 100, per HL100 gender pool)"
+        default=125,
+        help="Number of waitlist spots (default: 125, per HL100 gender pool)"
     )
     parser.add_argument(
         "-s", "--seed",

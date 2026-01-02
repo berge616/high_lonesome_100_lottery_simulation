@@ -29,8 +29,8 @@ python3 lottery_simulation.py -f entrants_example.csv
 |--------|-------|---------|-------------|
 | `--file` | `-f` | `entrants.csv` | Path to entrants CSV file |
 | `--iterations` | `-i` | `10000` | Number of simulation iterations |
-| `--main-spots` | `-m` | `100` | Number of main lottery spots |
-| `--waitlist-spots` | `-w` | `100` | Number of waitlist spots |
+| `--main-spots` | `-m` | `125` | Number of main lottery spots |
+| `--waitlist-spots` | `-w` | `125` | Number of waitlist spots |
 | `--seed` | `-s` | None | Random seed for reproducibility |
 
 ### Examples
