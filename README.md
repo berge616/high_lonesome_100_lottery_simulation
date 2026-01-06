@@ -2,6 +2,13 @@
 
 A Monte Carlo simulator to calculate selection probabilities in a weighted lottery system based on ticket counts. Designed for the High Lonesome 100 ultramarathon race lottery where participants earn tickets based on prior unsuccessful lottery entries.
 
+## Historical Lottery Results
+
+Simulation results from past lottery cycles are archived here for reference:
+
+### 2026
+- [Men's Lottery Results](historical_lottery_results/2026/mens/lottery_simulation_96_main_125_waitlist_10000_iterations.txt) - 915 entrants, 96 main spots, 125 waitlist spots
+
 ## Features
 
 - Weighted lottery simulation where more tickets = better odds
