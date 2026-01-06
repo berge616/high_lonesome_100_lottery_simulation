@@ -29,6 +29,9 @@ def load_entrants(filepath: str) -> list[Entrant]:
             # Skip empty lines and comments
             if not row or row[0].strip().startswith("#"):
                 continue
+            # Skip header row (check second column since it must be numeric)
+            if len(row) > 1 and row[1].strip().lower() == "tickets":
+                continue
             name = row[0].strip()
             tickets = float(row[1].strip())
             if tickets < 1:
